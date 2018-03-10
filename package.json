@@ -1,0 +1,12 @@
+{
+  "name": "MongoDB-Test",
+  "description": "mongo test app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.2.0",
+	"socket.io": "*",
+    "mongojs": "*",
+	"mongodb": "*"
+  }
+}
