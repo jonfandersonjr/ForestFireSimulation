@@ -36,7 +36,6 @@ ASSET_MANAGER.downloadAll(function () {
         circleArray = data.data;
         for (let i = 0; i < 100; i++) {
             for (let j = 0; j < 100; j++) {
-                //circleArray[i][j].removeFromWorld = true;
                 var circle = new Circle(circleArray[i][j].colorNum, i, j)
                 gameEngine.addEntity(circle);
             }
